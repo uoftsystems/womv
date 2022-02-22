@@ -30,10 +30,13 @@ The WOM-v implementation requires two components:
 # Building Code
 
 - FEMU code can be built using the instructions on the FEMU [website](https://github.com/ucare-uchicago/FEMU)
+
 The default mode for FEMU operation is MLC, we have added support for QLC drive to the FEMU (pushed upstream). The default mode can be changed to add QLC support using the `cell_type` parameter.
 More details can be found in our submitted [patch](https://github.com/ucare-uchicago/FEMU/pull/47) 
 
 - Linux LightNVM: 
+
+We recommend building the entire linux kernel provided in the repo that includes our changes in the lightNVM module to add WOM-v implementation.
 
 # Experimental Results
 
