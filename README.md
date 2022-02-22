@@ -25,7 +25,7 @@ month = feb,
 The WOM-v implementation requires two components:
 
 ## [FEMU](https://github.com/ucare-uchicago/FEMU)
-## [LightNVM](lightnvm/)
+## [LightNVM](linux_wom/)
 
 # Building Code
 
